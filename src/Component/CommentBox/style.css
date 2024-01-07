@@ -1,0 +1,32 @@
+.commentSection{
+    display: flex;
+    align-items: center;
+    margin-top: 20px ;
+    justify-content: center;
+    width: 100%;
+}
+
+.userImage > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 34px;
+    vertical-align: middle;
+
+}
+
+.userInput{
+    margin-left: 10px;
+    width: 85%;
+
+    
+}
+
+.userInput >input{
+    width: 100%;
+    background: transparent;
+    color: grey;
+    border-radius: 34px;
+    height: 40px;
+    border: 1px solid;
+    padding: 10px;
+}

@@ -1,0 +1,70 @@
+
+.Parent{
+    margin: 20px auto 0px!important;
+  }
+  
+  hr{
+    border: 1px solid grey;
+  }
+  .buttons{
+    position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 5px auto;
+  }
+  
+  .buttons button{
+    flex-basis: 34%;
+    background: #242526;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    transition: .5s ease-out;
+    &&:hover{
+      background-color: #64636371;
+      transition: .5s ease-in; 
+    }
+  
+  }
+  
+  .Hide{
+    border-radius: 8px;
+    position: absolute;
+    left: 0rem;
+    background: transparent;
+    padding: 10px !important;
+    opacity: 0;
+    pointer-events: none;
+    transition: .15s ease-out;
+    transition-delay: .5s;
+  
+  }
+  
+  .Hide img{
+    width: 40px;
+    height: 40px;
+    border-radius: 34px;
+    margin-left: 10px ;
+  
+  }
+  
+  button img{
+    width: 30px;
+    height: 30px;
+    border-radius: 34px;
+    vertical-align: middle;
+    margin-right: 5px !important;
+  }
+  
+  .active{
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(5px, -35px);
+  }
+  
+  .margin-right{
+    margin-right: 5px;
+  }
+  

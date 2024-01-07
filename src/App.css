@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+/* .fa{
+  height: 400px;
+  margin: auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  .transition{
+  animation: transition infinite 20s linear;
+}
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
+@keyframes transition {
+  from{
     transform: rotate(0deg);
   }
-  to {
+  to{
     transform: rotate(360deg);
   }
+  
+} */
+
+*{
+  font-size: 18px;
+}
+
+.container{
+  background-color: #18191a;
+
+}
+
+.Posting{
+  width: 40%;
+  background-color: #242526;
+  margin: 10px auto!important;
+  padding: 10px !important;
+}
+
+.user{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.user > img{
+  width: 40px;
+  height: 40px;
+  border-radius: 34px;
+  vertical-align: middle;
+}
+
+.description {
+  margin: 20px auto !important;
+  color: #fff;
+}
+
+/* .description  p{
+} */
+
+.userName{
+  margin-left: 5px !important;
+  font-size: 15px !important;
+  color: white;
+  line-height: 15px;
+}
+
+
+.userName small{
+  color: #a09d9d;
+
+}
+
+.Images .border{ 
+  border-radius: none !important;
+}
+
+hr{
+  border: 1px solid gray;
 }
